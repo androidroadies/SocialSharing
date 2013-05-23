@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <CheckBox
+        android:id="@+id/twitterCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:button="@drawable/twitter_check"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="  Twitter (Not connected) "
+        android:textColor="#ccc"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_140x50"
+        android:text=" Test Post"
+        android:textColor="#ffffff"
+        android:visibility="invisible" />
+
+</LinearLayout>

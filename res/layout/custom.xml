@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/popupbg4"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_facebook"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_140x50"
+        android:drawableLeft="@drawable/facebook"
+        android:drawablePadding="10dp"
+        android:text="Facebook"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btn_tweeter"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_140x50"
+        android:drawableLeft="@drawable/twitter"
+        android:text="Tweeter"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btn_linkedin"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_140x50"
+        android:drawableLeft="@drawable/linkedin"
+        android:text="Linked In"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

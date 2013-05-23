@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SocialSharing</string>
+    <string name="request">Request!</string>
+    <string name="hello">Facebook</string>
+    <string name="upload">Upload Photo</string>
+    <string name="post">Wall Post!</string>
+    <string name="delete">Delete Post</string>
+
+</resources>
